@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>encuesta</title>
+
+</head>
+
+<body>  
+
+    
+
+    <div class="hero-slider" carousel >
+
+        <div class="carousel-cell" 
+        style="background-image: url(SERE_6.png);">
+            <div class="gradient"></div>
+                <div class="info-container">
+                    <div class="form-content">
+
+                        <h2 class="header">enviar formulario</h2>
+
+                        <form action="https://formsubmit.co/perezalanbd@gmail.com" method="POST">
+
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name">
+
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" name="email" id="email">
+
+                            <label for="subject">Telefono</label>
+                            <input type="text" name="subject" id="subject">
+                            
+                            <input class="btn" type="submit" value="Enviar">
+
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+                            <input type="hidden" name="_captcha" value="false">
+
+                        </form>
+                
+                    </div>
+                    <h3 class="header"></h3>
+                    <h2 class="text"></h2>
+                    <a href="Index.html">
+                        <button > Regresar </button>
+                    </a>
+                </div>
+
+        </div>
+        
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="index.js"> </script>
+
+</body>
+</html>
